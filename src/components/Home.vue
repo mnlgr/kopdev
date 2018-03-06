@@ -60,20 +60,4 @@
 </script>
 
 <style scoped>
-  .title {
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 2em !important;
-    padding: 20px;
-  }
-
-  .enconcertle {
-    position: absolute;
-    margin-top: 5%;
-    color: white;
-    font-size: 1.2em !important;
-    padding: 20px;
-  }
 </style>

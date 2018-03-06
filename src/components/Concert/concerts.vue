@@ -46,7 +46,7 @@ export default {
     src: url(Futura_LT_Condensed_Bold.ttf);
 }
 .card {
-  border-radius: 16px;
+  border-radius: 16px !important;
   box-shadow: 0 7px 20px rgba(10,10,10,0.14);
   font-family: arvo;
   line-height: 2;
@@ -119,6 +119,14 @@ transition: all 600ms ease;
   right: 0.2em;
   width: auto;
   z-index: 1;
+}
+.theme--light .card {
+    color: #fff;
+}
+.toolbar__title {
+font-size: 4em;
+font-weight: 900;
+letter-spacing: .06em;
 }
 
 /* Media Queries */

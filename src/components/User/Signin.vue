@@ -36,7 +36,7 @@
                 <v-layout row>
                   <v-flex xs12>
                     <v-btn type="submit" :disabled="loading" :loading="loading">
-                      S'inscire
+                      S'inscrire
                        <span slot="loader" class="custom-loader">
                         <v-icon light>cached</v-icon>
                        </span>

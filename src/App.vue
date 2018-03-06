@@ -93,7 +93,16 @@
     </script>
 
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+    @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lato');
+    @font-face {
+        font-family: Futura_LT;
+        src: url(Futura_LT_Condensed_Bold.ttf);
+    }
 
+    body{
+      font-family: lato;
+    }
 
     .toolbar__title {
         margin-top: 5% !important;
@@ -104,7 +113,10 @@
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
+        font-size: 4em;
+        font-weight: 900;
+        letter-spacing: .06em;
+        }
 
     .toolbar {
     font-family: 'Futura_LT', sans-serif;
@@ -121,6 +133,84 @@
     letter-spacing: .02em;
     }
 
+    .card {
+      border-radius: 16px !important;
+      box-shadow: 0 7px 20px rgba(10,10,10,0.14) !important;
+      line-height: 2;
+      opacity: 1;
+      }
+    .card:hover{
+        -moz-transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        transform: scale(1.02);
+        -ms-transform: scale(1.2);
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000;
+          }
+    .card-media {
+      opacity: 0.1;
+    }
+    .font {
+      padding: 0.1;
+    }
+    h1 {
+      font-size:7em;
+      font-family: 'Futura_LT', sans-serif;
+      font-weight: bold;
+      line-height: 100px;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 4em;
+      font-family: 'Futura_LT', sans-serif;
+      padding-top: 0.6em;
+    }
+    .theme--light .card {
+        background-color: #fff;
+        color: #ffffff;
+      }
+    .subtitle{
+        font-size: 1.8em;
+        font-family: 'Futura_LT', sans-serif;
+        line-height: 1.2em;
+        position: absolute;
+        bottom: 1.2em;
+        width: auto;
+        z-index: 1;
+    }
+    .container{
+        z-index: 1;
+    }
+    .holder{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVQYV2NkYGD4z8DAwMjIAAUADikBA/gvnngAAAAASUVORK5CYII=);
+    pointer-events: none;
+    opacity: .5;
+    transition: all 600ms ease;
+    }
+    .vertical{
+      font-family: 'Futura_LT', sans-serif;
+      font-size: 2em;
+      writing-mode: vertical-lr;
+      position: absolute;
+      top: 0.6em;
+      right: 0.2em;
+      width: auto;
+      z-index: 1;
+    }
+    .theme--light .card {
+        color: #fff;
+    }
+    
     /* Media Queries */
 
     /* ----------- iPhone 4, 5 and 5S ----------- */
