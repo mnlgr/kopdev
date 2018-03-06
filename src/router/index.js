@@ -52,5 +52,5 @@ export default new Router({
       component: Signin
     }
   ],
-  mode: 'history'
+  mode: 'hash'
 })

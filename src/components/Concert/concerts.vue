@@ -15,7 +15,7 @@
                 <v-container>
                 <h1 class="text-lg-bottom">{{ concert.title }}</h1>
                 <div class="subtitle">&nbsp;{{ concert.location }} - {{ concert.hour }} - {{ concert.prix }}
-                <br>&nbsp;Si tu apprécies : {{ concert.similar }}</h5></div>
+                <br>&nbsp;Si tu apprécies {{ concert.similar }}</h5></div>
               </v-container>
               <v-flex>
                 <div class="vertical">&nbsp;&nbsp;{{ concert.divers }}</div>
